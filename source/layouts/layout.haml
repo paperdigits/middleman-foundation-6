@@ -1,0 +1,13 @@
+!!!
+%html.no-js{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}
+    %meta{:charset => "utf-8"}
+    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+    %title= data.page.title
+    = stylesheet_link_tag "style"
+    = javascript_include_tag "modernizr"
+  %body{:class => page_classes}
+    = yield
+    = javascript_include_tag  "all"
