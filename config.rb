@@ -61,6 +61,11 @@ after_configuration do
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
 
+# Use the correct vendor prefixes for foundation
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'ie >= 9', 'and_chr >= 2.3']
+end
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
