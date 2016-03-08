@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "foundation-sites": "~6.0.5",
+    "foundation-sites": "~6.2",
     "modernizr": "~2.8.3"
   }
 }
