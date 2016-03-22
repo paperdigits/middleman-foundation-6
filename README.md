@@ -1,5 +1,7 @@
 # Foundation 6 Middleman Template
 
+**For now, `master` works wtih Middleman 3; for Middleman 4, see the `mm4` branch. I'll take patches for either branch.**
+
 middleman-foundation-6 is a minimal [Middleman](http://middlemanapp.com/) project template using the [SASS](http://sass-lang.com) version of the [ZURB Foundation](http://foundation.zurb.com) framework, version 6.
 
 Lots of this is based on [middleman-zurb-foundation](https://github.com/axyz/middleman-zurb-foundation) by [axyz](http://twitter.com/axyz); thanks!
