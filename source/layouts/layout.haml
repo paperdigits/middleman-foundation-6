@@ -5,7 +5,7 @@
     %meta{:charset => "utf-8"}
     %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-    %title= data.page.title
+    %title= current_resource.data.title
     = stylesheet_link_tag "style"
     = javascript_include_tag "modernizr"
   %body{:class => page_classes}
