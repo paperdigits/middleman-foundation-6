@@ -20,4 +20,4 @@ Lots of this is based on [middleman-zurb-foundation](https://github.com/axyz/mid
 
 Now you can start hacking on `source` directory and watch live changes on [localhost:4567](http://localhost:4567).
 
-For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/).
+For more help follow [Middleman's project template instructions](https://middlemanapp.com/advanced/project_templates/).
