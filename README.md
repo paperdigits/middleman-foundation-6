@@ -13,11 +13,9 @@ Lots of this is based on [middleman-zurb-foundation](https://github.com/axyz/mid
 
 ## Installing middleman-foundadtion-6 as a Middleman Template
 
-1. $ `git clone git://github.com/paperdigits/middleman-foundation-6.git ~/.middleman/middleman-foundation-6`
-1. $ `middleman init my_new_project --template=middleman-foundation-6`
+1. $ `middleman init my_new_project --template=paperdigits/middleman-foundation-6`
 1. $ `cd my_new_project`
 1. $ `bower install`
-1. $ `bundle install`
 1. $ `bundle exec middleman`
 
 Now you can start hacking on `source` directory and watch live changes on [localhost:4567](http://localhost:4567).
