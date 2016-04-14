@@ -55,6 +55,8 @@ end
 #   end
 # end
 
+# Activate sprockets
+activate :sprockets
 # Add bower's directory to sprockets asset path
 after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
