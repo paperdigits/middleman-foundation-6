@@ -22,6 +22,8 @@ Lots of this is based on [middleman-zurb-foundation](https://github.com/axyz/mid
 1. $ `bundle install`
 1. $ `bundle exec middleman`
 
+You'll probably want to grab the latest `_settings.scss` [from the Foundation github page](https://raw.githubusercontent.com/zurb/foundation-sites/master/scss/settings/_settings.scss) and import it into the stylesheet.
+
 Now you can start hacking on `source` directory and watch live changes on [localhost:4567](http://localhost:4567).
 
 For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/).
