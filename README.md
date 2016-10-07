@@ -13,7 +13,7 @@ Lots of this is based on [middleman-zurb-foundation](https://github.com/axyz/mid
 1. bower ($ `npm install -g bower`)
 1. git
 
-## Installing middleman-foundadtion-6 as a Middleman Template
+## Installing middleman-foundation-6 as a Middleman Template
 
 1. $ `git clone git://github.com/paperdigits/middleman-foundation-6.git ~/.middleman/middleman-foundation-6`
 1. $ `middleman init my_new_project --template=middleman-foundation-6`
